@@ -17,10 +17,13 @@ Live Demo: [Try it now!](https://your-streamlit-link.streamlit.app) *(coming soo
 - **Model**: Multinomial Naive Bayes
 - **Vectorization**: CountVectorizer (TF-IDF-like)
 - **Performance**:
-precision    recall  f1-score   support
-ham       0.99      0.98      0.98      1448
-spam       0.88      0.92      0.90       224
-accuracy                           0.97      1672
+
+
+|              | precision | recall | f1-score | support |
+|--------------|---------|--------|----------|---------|
+| **ham**      | 0.99    | 0.98   | 0.98     | 1448    |
+| **spam**     | 0.88    | 0.92   | 0.90     | 224     |
+| **accuracy** |         |        | 0.97     | 1672    |
 
 
 ---
